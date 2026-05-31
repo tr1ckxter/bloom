@@ -44,9 +44,7 @@ class BloomApp extends StatelessWidget {
           theme: ThemeData(
             useMaterial3: true,
             colorScheme: ColorScheme.fromSeed(
-                seedColor: Colors.teal,
-                brightness: Brightness.light
-            ),
+                seedColor: Colors.teal, brightness: Brightness.light),
             textTheme: GoogleFonts.latoTextTheme(),
           ),
 
@@ -56,7 +54,7 @@ class BloomApp extends StatelessWidget {
             colorScheme: ColorScheme.fromSeed(
                 seedColor: Colors.teal,
                 brightness: Brightness.dark // Key change here
-            ),
+                ),
             textTheme: GoogleFonts.latoTextTheme(ThemeData.dark().textTheme),
             // Optional: Customize dark app bar specifically if needed
             appBarTheme: const AppBarTheme(
@@ -130,11 +128,13 @@ class _HomeScreenState extends State<HomeScreen> {
             selectedIndex: _selectedIndex,
             onDestinationSelected: _onItemTapped,
             // Adjust opacity for readability
-            backgroundColor: Theme.of(context).colorScheme.surface.withOpacity(0.85),
+            backgroundColor:
+                Theme.of(context).colorScheme.surface.withOpacity(0.85),
             elevation: 0,
             destinations: const <NavigationDestination>[
               NavigationDestination(icon: Icon(Icons.eco), label: 'Habits'),
-              NavigationDestination(icon: Icon(Icons.check_circle_outline), label: 'Tasks'),
+              NavigationDestination(
+                  icon: Icon(Icons.check_circle_outline), label: 'Tasks'),
               NavigationDestination(icon: Icon(Icons.face), label: 'Mood'),
               NavigationDestination(icon: Icon(Icons.book), label: 'Journal'),
               NavigationDestination(icon: Icon(Icons.person), label: 'Profile'),
@@ -145,3 +145,5 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
+// For Git Push SS
