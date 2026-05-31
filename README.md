@@ -1,16 +1,31 @@
-# sdaa
+# 🌸 Bloom - Self Help Application
 
-A new Flutter project.
+Bloom is a Flutter-based self-help mobile application designed to help users improve productivity, mental well-being, and daily discipline.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📋 Task management system
+- 🔥 Habit tracking with streaks
+- 😊 Mood tracking and history
+- 📓 Personal journal writing
+- 💾 Offline storage using SQLite
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Tech Stack
+
+- Flutter (Dart)
+- SQLite (sqflite package)
+- Android Studio / VS Code
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+flutter pub get
+flutter run
